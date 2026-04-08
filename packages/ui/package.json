@@ -1,0 +1,36 @@
+{
+  "name": "@patchhivehq/ui",
+  "version": "0.1.0",
+  "description": "Shared React UI primitives and components for PatchHive products.",
+  "type": "module",
+  "main": "./src/index.js",
+  "files": [
+    "src",
+    "README.md"
+  ],
+  "exports": {
+    ".": "./src/index.js",
+    "./components/*": "./src/components/*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/patchhive/patchhive-ui.git"
+  },
+  "homepage": "https://github.com/patchhive/patchhive-ui",
+  "bugs": {
+    "url": "https://github.com/patchhive/patchhive-ui/issues"
+  },
+  "keywords": [
+    "patchhive",
+    "react",
+    "ui",
+    "components"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
+  },
+  "peerDependencies": {
+    "react": ">=18"
+  }
+}
