@@ -1,9 +1,0 @@
-.env
-.env.local
-.DS_Store
-
-backend/target/
-backend/signal-hive.db
-
-frontend/node_modules/
-frontend/dist/
